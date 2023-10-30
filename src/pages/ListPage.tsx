@@ -32,7 +32,9 @@ const ListPage: React.FC = (props) => {
                 setItemState(res);
                 setRawItemList(res);
             }
-        });
+        }).catch( e =>
+            console.log("Nenhum path encontrado.")
+        );
     },[])
 
     const RemoveHandler = (id: number) : void => {

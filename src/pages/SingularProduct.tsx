@@ -20,7 +20,9 @@ const SingularProduct : React.FC = () => {
                 setProduct(res);
                 setProdutosQt(res.quantity)
             }
-        });
+        }).catch( e =>
+            console.log("Nenhum path encontrado.")
+        );
     },[productId])
 
     return (

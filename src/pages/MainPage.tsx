@@ -21,7 +21,9 @@ const MainPage : React.FC = () => {
         const prodServ = new ProductService();
         prodServ.GetListaProdutos().then((res) => {
             if(res) setProductList(res);
-        });
+        }).catch( e =>
+            console.log("Nenhum path encontrado.")
+        );
     },[])
 
     return (

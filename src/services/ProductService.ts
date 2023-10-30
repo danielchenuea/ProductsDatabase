@@ -55,13 +55,6 @@ class ProductService {
                         quantity: res[0].quantity,
                         date_input: Date.parse(res[0].date_input),
                     };
-                    // console.log(res[0].date_input);
-                    // console.log(Date.parse(res[0].date_input));
-                    // console.log(
-                    //     new Date(Date.parse(res[0].date_input)).toLocaleString(
-                    //         "en-GB"
-                    //     )
-                    // );
                     return resolve(temp_res);
                 },
                 error: (res) => {
