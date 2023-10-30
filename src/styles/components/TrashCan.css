@@ -1,0 +1,35 @@
+.deleteArea{
+    width: 150px;
+    height: 150px;
+    background-color: #ffcccc;
+    outline: 1px dashed red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 8%;
+    margin-top: 15px;
+    transition: all 0.08s ease-in-out;
+}
+
+.trashIcon{
+    color: red;
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+    pointer-events: none;
+    transition: all 0.08s ease-in-out;
+}
+
+.deleteAreaHover {
+    outline: 2px dashed red;
+}
+
+.nullPointer{
+    pointer-events: none;
+}
+
+.trashIconHover{
+    width: 110px;
+    height: 110px;
+}

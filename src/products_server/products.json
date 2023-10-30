@@ -1,0 +1,102 @@
+{
+    "products": [
+        { 
+            "id": 1,
+            "title": "Salad", 
+            "quantity": 49,
+            "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+            "date_input": "Wed Oct 25 2023 08:02:52 GMT-0300 (Brasilia Standard Time)"
+        },
+        { 
+            "id": 2,
+            "title": "Towels", 
+            "quantity": 21,
+            "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+            "date_input": "Wed Oct 25 2023 08:32:47 GMT-0300 (Brasilia Standard Time)"
+        },
+        { 
+            "id": 3,
+            "title": "Car", 
+            "quantity": 73,
+            "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+            "date_input": "Tue Oct 24 2023 22:48:49 GMT-0300 (Brasilia Standard Time)"
+        },
+        { 
+            "id": 4,
+            "title": "Pants", 
+            "quantity": 7,
+            "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+            "date_input": "Tue Oct 24 2023 17:19:07 GMT-0300 (Brasilia Standard Time)"
+        },
+        { 
+            "id": 5,
+            "title": "Bacon", 
+            "quantity": 99,
+            "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+            "date_input": "Tue Oct 24 2023 19:28:44 GMT-0300 (Brasilia Standard Time)"
+        },
+        { 
+            "id": 6,
+            "title": "Fish", 
+            "quantity": 2,
+            "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+            "date_input": "Tue Oct 24 2023 21:52:21 GMT-0300 (Brasilia Standard Time)"
+        },
+        { 
+            "id": 7,
+            "title": "Chips", 
+            "quantity": 67,
+            "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+            "date_input": "Wed Oct 25 2023 09:24:47 GMT-0300 (Brasilia Standard Time)"
+        },
+        { 
+            "id": 8,
+            "title": "Chicken", 
+            "quantity": 52,
+            "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+            "date_input": "Wed Oct 25 2023 00:36:31 GMT-0300 (Brasilia Standard Time)"
+        },
+        { 
+            "id": 9,
+            "title": "Ball", 
+            "quantity": 44,
+            "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+            "date_input": "Tue Oct 24 2023 18:46:59 GMT-0300 (Brasilia Standard Time)"
+        },
+        { 
+            "id": 10,
+            "title": "Mouse", 
+            "quantity": 99,
+            "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+            "date_input": "Tue Oct 24 2023 17:45:03 GMT-0300 (Brasilia Standard Time)"
+        },
+        { 
+            "id": 11,
+            "title": "Bike", 
+            "quantity": 84,
+            "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+            "date_input": "Wed Oct 25 2023 00:30:57 GMT-0300 (Brasilia Standard Time)"
+        },
+        { 
+            "id": 12,
+            "title": "Tuna", 
+            "quantity": 99,
+            "description": "Provident illum suscipit dolorem corrupti enim.Quas aut atque ullam maiores qui quia nihil at. Vitae voluptate ad at. Expedita eaque rerum. Est aut consequatur perferendis natus. Voluptatem quos vitae fugit atque. Veritatis est quia maxime sunt et. Enim provident quam quo dolor. Nihil mollitia est velit impedit dolore corporis non earum voluptatum. excepturi-perferendis-nihil. Repellat libero voluptatibus ea unde eaque nisi. Nisi natus voluptate esse voluptas voluptatem ipsa quia. Dolorem cum aspernatur ut voluptas accusantium veniam doloribus nam illo. Nobis officia delectus consequatur omnis repellat.",
+            "date_input": "Tue Oct 24 2023 22:26:25 GMT-0300 (Brasilia Standard Time)"
+        },
+        { 
+            "id": 13,
+            "title": "Bacon", 
+            "quantity": 89,
+            "description": "The Football Is Good For Training And Recreational Purposes",
+            "date_input": "Tue Oct 24 2023 13:21:20 GMT-0300 (Brasilia Standard Time)"
+        },
+        { 
+            "id": 14,
+            "title": "Car", 
+            "quantity": 37,
+            "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+            "date_input": "Wed Oct 25 2023 05:53:19 GMT-0300 (Brasilia Standard Time)"
+        }
+    ]
+}

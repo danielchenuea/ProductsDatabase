@@ -1,0 +1,13 @@
+.TabGroupSpacer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;    
+    border: 1px #777 solid;
+    border-radius: 4px;
+    min-height: 160px;
+    margin: 8px 0px;
+    padding: 50px 0px;
+}

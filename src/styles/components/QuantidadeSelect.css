@@ -1,0 +1,54 @@
+.QuantidadeSelectSpacer{
+    width: 100%;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;    
+    border: 1px #777 solid;
+    border-radius: 4px;
+    min-height: 160px;
+    margin: 8px 0px;
+}
+
+#inputNumber{
+    height: 70px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 1px #777 solid;
+    border-radius: 4px;
+    font-size: 24px;
+    text-align: center;
+    transition: all 0.1s linear;
+}
+
+.qtButtons{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    border: 1px #777 solid;
+    border-radius: 4px;
+    transition: all 0.1s linear;
+    user-select: none;
+}
+.qtButtons:hover{
+    background-color: #e8e8e8;
+    cursor: pointer;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

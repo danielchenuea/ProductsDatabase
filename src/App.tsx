@@ -1,25 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Route, Routes, BrowserRouter } from 'react-router-dom';
+import Layout from './pages/shared/Layout';
+import ListPage from "./pages/ListPage";
+import AddProductsPage from "./pages/AddProductsPage";
+import SingularProduct from "./pages/SingularProduct";
+import MainPage from "./pages/MainPage";
 
-function App() {
+// const Layout = React.lazy(() => import('./pages/shared/Layout'))
+// const MainPage = React.lazy(() => import('./pages/MainPage'))
+// const AddProductsPage = React.lazy(() => import('./pages/AddProductsPage'))
+// const SingularProduct = React.lazy(() => import('./pages/SingularProduct'))
+// const ListPage = React.lazy(() => import('./pages/ListPage'))
+
+const App: React.FC = () => {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<MainPage />}></Route>
+          <Route path="add" element={<AddProductsPage />}></Route>
+          <Route path="list" element={<ListPage />}></Route>
+          <Route path="list/:productId" element={<SingularProduct />}></Route>
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

@@ -1,0 +1,97 @@
+
+.HistoryProductsSpacer{
+    position: relative;
+    width: 100%;
+    height: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.HistoryProductsWrap{
+    width: 100%;
+    height: 100%;
+    border: 1px #777 solid;
+    border-radius: 4px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    transition: all 0.1s ease-in-out;
+    /* white-space: nowrap; */
+}
+.HistoryProductsWrap:hover{
+    cursor: pointer;
+}
+.HistoryProductsWrap.active{
+    cursor: grabbing;
+}
+
+.HistoryProductsBox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    border: 1px #777 solid;
+    border-radius: 4px;
+    transition: background-color 0.1s linear;
+    user-select: none;
+}
+.HistoryProductsBox:hover{
+    cursor: pointer;
+    background-color: #ebebeb;
+}
+
+.leftArrowHistory {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 60px;
+    border: 1px #777 solid;
+    border-radius: 5px;
+    position: absolute;
+    left: 0px;
+    margin-left: -40px;
+    font-weight: bold;
+    background-color: white;
+    transition: background-color 0.1s linear;
+    user-select: none;
+}
+.leftArrowHistory:hover{
+    cursor: pointer;
+    background-color: #f8f8f8;
+}
+
+.rightArrowHistory {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 60px;
+    border: 1px #777 solid;
+    border-radius: 5px;
+    position: absolute;
+    right: 0px;
+    margin-right: -40px;
+    font-weight: bold;
+    background-color: white;
+    transition: background-color 0.1s linear;
+    user-select: none;
+}
+.rightArrowHistory:hover{
+    cursor: pointer;
+    background-color: #f8f8f8;
+}
+
+.rangeHistory{
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: -30px;
+}

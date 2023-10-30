@@ -1,0 +1,110 @@
+.AddProductSpacer{
+    margin: 70px 0px 0px 120px;
+    width: calc(100% - 120px);
+    height: calc(100dvh - 70px);
+}
+
+.addFormStyle{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: calc(100% - 60px);
+    /* height: 300px; */
+    padding-top: 60px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.divFormsBase{
+    margin-top: 20px;
+    width: 70%;
+}
+
+.divFormsSelect{
+    border: 1px #aaaaaaaa solid;
+    border-radius: 4px;
+    min-height: 160px;
+}
+
+#labelInput{
+    color: #777;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#nameInput{
+    width: 100%;
+    height: 80px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #777;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 24px;
+    outline: none;
+    /* color: #444 */
+}
+::placeholder{
+    color: #ccc;
+}
+
+#descriptionInput{
+    width: 100%;
+    height: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #777;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 20px;
+    outline: none;
+    resize: none;
+}
+
+#dateInput{
+    width: 100%;
+    height: 80px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #777;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 24px;
+    outline: none;
+}
+
+.submitDiv{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submitForm{
+    width: 200px;
+    height: 120px;
+    border: 2px solid #516082;
+    border-radius: 4px;
+    background-color: #6279a7;
+    transition: all 0.06s linear;
+    color: white;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.submitForm:hover{
+    background-color: #5c73a0;
+    cursor: pointer;
+}
+.submitForm:active{
+    background-color: #53678f;
+    box-shadow: inset 0px 0px 18px 1px rgba(0,0,0,0.44);
+}
+
+.SpacerEnd{
+    padding-top: 400px;
+}

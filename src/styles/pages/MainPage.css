@@ -1,0 +1,29 @@
+.MainPageSpacer{
+    margin: 70px 0px 0px 120px;
+    width: calc(100% - 120px);
+    height: calc(100dvh - 70px);
+}
+
+.mainStack{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: calc(100% - 60px);
+    /* height: 300px; */
+    padding-top: 60px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.divMainBase{
+    margin-top: 20px;
+    width: 70%;
+}
+
+.divMainSelect{
+    border: 1px #aaaaaaaa solid;
+    border-radius: 4px;
+    min-height: 160px;
+}

@@ -1,0 +1,6 @@
+div.MuiOutlinedInput-root:has(input#inputSearch){
+    background-color: white;
+    margin-left: 50px;
+    height: 40px;
+    width: 300px;
+}

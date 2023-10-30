@@ -1,0 +1,184 @@
+.listWrapper{
+    border: 1px solid #a3a3a3;
+    border-radius: 7px;
+}
+
+.listItem{
+    display: flex;
+    margin: 0px;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 1px;
+    transition: all 0.07s linear;
+    cursor: grab;
+}
+
+.listItem:hover{
+    cursor: pointer;
+    outline: 3px solid #c4c4c4;
+}
+
+.listTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 15%;
+    border: 1px solid #a3a3a3;
+}
+
+.listDescription{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 85%;
+    height: 100%;
+    /* padding-left: 30px; */
+    margin-left: -1px;
+    text-overflow: ellipsis;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    border: 1px solid #a3a3a3;
+}
+
+.listDescription p{
+    padding-left: 30px;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+
+.numDescription{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    height: 100%;
+    margin-left: -1px;
+    border: 1px solid #aaaaaa;
+}
+
+.listDisabled{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    margin: 0px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 1px;
+}
+
+.titleDisabled{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 15%;
+    border: 1px solid #a3a3a3;
+    border-top-left-radius: 7px;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    user-select: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow: hidden;
+}
+.titleDisabled p{
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.descriptionDisabled{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 85%;
+    height: 100%;
+    margin-left: -1px;
+    border: 1px solid #a3a3a3;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    user-select: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.numDisabled{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: calc(10% + 1px);
+    height: 100%;
+    margin-left: -1px;
+    padding-right: 0px;
+    border: 1px solid #a3a3a3;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    outline: 0px solid #c5c5c5;
+    transition: all 0.07s linear;
+    user-select: none;
+    overflow: hidden;
+}
+.numDisabled:hover{
+    outline: 2px solid #c5c5c5;
+}
+.numDisabled:active{
+    box-shadow: inset 0px 0px 3px 1px rgba(0,0,0,0.4);
+    outline: 2px solid #c5c5c5;
+}
+.numDisabled p{
+    padding-top: 0px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.numDisabled div{
+    height: 30px;
+}
+
+div.MuiOutlinedInput-root:has(input#inputFilter){
+    background-color: white;
+    /* margin-left: 50px; */
+    height: 30px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.scrollFill{
+    width: 17px;
+    height: 100%;
+    border: 1px solid #a3a3a3;
+    border-top-right-radius: 7px;
+    border-left: none;
+}
+
+.listUl{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 3px 0px;
+    /* padding-top: 3px; */
+    max-height: calc(41px*12);
+    overflow-y: scroll;
+    overflow-x: visible;
+    list-style-type: none;
+    background: #f0f0f0;
+    user-select: none;
+}
+.UlDisabled{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 7px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding: 0px;
+    overflow-x: visible;
+    list-style-type: none;
+    background: #f0f0f0;
+}
