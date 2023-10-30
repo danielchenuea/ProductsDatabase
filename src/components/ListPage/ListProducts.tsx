@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react"
-import { Produto } from '../models/produto.models';
-import '../styles/components/ListProducts.css'
+import { Produto } from '../../models/produto.models';
+import '../../styles/components/ListPage/ListProducts.css'
 import TrashCan from "./TrashCan";
 import { OutlinedInput } from "@mui/material";
 

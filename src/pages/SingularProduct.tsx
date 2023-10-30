@@ -2,14 +2,14 @@ import React, { useEffect, useState } from "react"
 import { useParams } from "react-router-dom";
 import ProductService from "../services/ProductService";
 import { Produto } from "../models/produto.models";
-import ProductInfo from "../components/ProductInfo";
+import ProductInfo from "../components/SingularPage/ProductInfo";
 import '../styles/pages/SingularPage.css'
 import QuantidadeSelect from "../components/AddPage/QuantidadeSelect";
 
 
 const SingularProduct : React.FC = () => {
-    let [product, setProduct] = useState<Produto>();
-    let [produtosQt, setProdutosQt] = useState<number>(0);
+    const [product, setProduct] = useState<Produto>();
+    const [produtosQt, setProdutosQt] = useState<number>(0);
 
     let { productId } = useParams();
 

@@ -1,7 +1,7 @@
 import React from "react"
-import { Produto } from "../models/produto.models";
-import '../styles/components/ListProducts.css'
-import "../styles/components/ProductInfo.css"
+import { Produto } from "../../models/produto.models";
+import '../../styles/components/ListPage/ListProducts.css'
+import "../../styles/components/SingularPage/ProductInfo.css"
 
 interface PropsInsert{
     product: Produto;

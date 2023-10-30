@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../../styles/components/RadioSelect.css"
+import "../../styles/components/AddPage/RadioSelect.css"
 
 type NewTodoProps = {
     id?: string;

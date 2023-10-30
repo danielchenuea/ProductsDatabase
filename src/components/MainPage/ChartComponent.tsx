@@ -3,8 +3,7 @@ import "../../styles/components/MainPage/ChartComponent.css"
 
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import { Pie } from "react-chartjs-2";
-
-
+import { faker } from "@faker-js/faker";
 
 interface ChartInterface{
 
@@ -19,7 +18,14 @@ const ChartComponent : React.FC<ChartInterface> = (props) => {
         datasets: [
           {
             label: '# of Votes',
-            data: [12, 19, 3, 5, 2, 0],
+            data: [ 
+              faker.number.int({min: 0, max: 100}),
+              faker.number.int({min: 0, max: 100}),
+              faker.number.int({min: 0, max: 100}), 
+              faker.number.int({min: 0, max: 100}),
+              faker.number.int({min: 0, max: 100}),
+              faker.number.int({min: 0, max: 100})
+            ],
             backgroundColor: [
               'rgba(255, 99, 132, 0.2)',
               'rgba(54, 162, 235, 0.2)',
@@ -49,7 +55,6 @@ const ChartComponent : React.FC<ChartInterface> = (props) => {
         <div className="ChartComponentSpacer">
             <div className="Chart">
                 <Pie data={data} />
-
             </div>
         </div>
     )

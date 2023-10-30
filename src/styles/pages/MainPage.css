@@ -5,6 +5,7 @@
 }
 
 .mainStack{
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -12,6 +13,7 @@
     width: 100%;
     height: calc(100% - 60px);
     /* height: 300px; */
+    ;
     padding-top: 60px;
     overflow-y: scroll;
     overflow-x: hidden;
@@ -26,4 +28,10 @@
     border: 1px #aaaaaaaa solid;
     border-radius: 4px;
     min-height: 160px;
+}
+
+.FooterSpacer{
+    width: 100%;
+    padding: 150px 0px;
+    /* background-color: aliceblue; */
 }

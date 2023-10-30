@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import ListProduct from "../components/ListProducts";
+import ListProduct from "../components/ListPage/ListProducts";
 import ProductService from "../services/ProductService";
 import { Produto } from '../models/produto.models';
 import '../styles/pages/ListPage.css'
@@ -15,7 +15,9 @@ const ListPage: React.FC = (props) => {
     const navigate = useNavigate();
   
     useEffect(() => {
-        let { search } = state;
+        if (state === null) return;
+        // console.log(state)
+        let { search } = state ;
 
         setItemState(
             rawItemList.filter((el) => el.title.toLowerCase().includes(search))

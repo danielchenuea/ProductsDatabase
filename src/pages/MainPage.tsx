@@ -5,8 +5,8 @@ import '../styles/pages/MainPage.css'
 import HistoryProducts from "../components/MainPage/HistoryProducts";
 import { useNavigate } from "react-router-dom";
 import ChartComponent from "../components/MainPage/ChartComponent";
-import TabGroup from "../components/TabGroup";
-import { Tabs } from "@mui/material";
+import TabGroup, { Tabs } from "../components/TabGroup";
+import Graph from "../components/MainPage/GraphComponent";
 
 
 const MainPage : React.FC = () => {
@@ -29,23 +29,22 @@ const MainPage : React.FC = () => {
             <div className="mainStack">
                 <div className="divMainBase">
                     <TabGroup>
-                        <Tabs>
+                        <Tabs tabName="Chart 1">
                             <ChartComponent />
                         </Tabs>
-                        <Tabs>456</Tabs>
-                        <Tabs>789</Tabs>
+                        <Tabs tabName="Chart 2">
+                            <Graph />
+                        </Tabs>
+                        <Tabs>Teste</Tabs>
                     </TabGroup>
                 </div>
-                {/* <div className="divMainBase divMainSelect">
-                    <ChartComponent />
-                </div> */}
-                {/* <div className="divMainBase divMainSelect">Item 2</div> */}
                 <div className="divMainBase">
                     <HistoryProducts
                         productList={productList}
-                        // transitionTimer={1000}
                         onClickBox={onClickProduct}
                     />
+                </div>
+                <div className="FooterSpacer">
                 </div>
             </div>
         </div>

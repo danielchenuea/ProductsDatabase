@@ -1,10 +1,10 @@
 import React from "react"
-import '../styles/components/ListProducts.css'
+import '../../styles/components/ListPage/ListProducts.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrash } from "@fortawesome/free-solid-svg-icons";
-import "../styles/components/TrashCan.css"
-import { DragAndDrop } from "../models/DragAndDrop.Models";
-import { TrashCanDragDrop } from "../models/TrashCan.model";
+import "../../styles/components/ListPage/TrashCan.css"
+import { DragAndDrop } from "../../models/DragAndDrop.Models";
+import { TrashCanDragDrop } from "../../models/TrashCan.model";
 
 const TrashCan : React.FC<DragAndDrop&TrashCanDragDrop> = (props) => {
     return (

@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/components/QuantidadeSelect.css"
+import "../../styles/components/AddPage/QuantidadeSelect.css"
 
 type QuantidadeProps = {
     id?: string;
